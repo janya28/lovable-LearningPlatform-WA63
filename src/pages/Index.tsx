@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import FeaturedCourses from '@/components/FeaturedCourses';
 import { Button } from '@/components/ui/button';
-import { GraduationCap, Book, Check, List, Video } from 'lucide-react';
+import { GraduationCap, Book, Check, List, Video, Search } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -86,7 +86,7 @@ const Index = () => {
                     {
                       icon: <List className="h-5 w-5 text-learn-primary" />,
                       title: 'Progress Tracking',
-                      description: 'Monitor your progress with detailed analytics and see how far you've come.'
+                      description: 'Monitor your progress with detailed analytics and see how far you have come.'
                     },
                     {
                       icon: <Book className="h-5 w-5 text-learn-primary" />,
